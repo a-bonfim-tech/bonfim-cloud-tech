@@ -1,1 +1,12 @@
+Many organizations in Brazil adopted cloud platforms rapidly,
+often without trained teams, security baselines or governance models.
 
+Common issues observed:
+- Overprivileged identities and lack of IAM strategy
+- Publicly exposed storage
+- No audit logging or monitoring
+- No incident response planning
+- Regulatory and compliance risks
+
+These gaps increase the likelihood of data breaches,
+service disruption and long-term operational dependency.
