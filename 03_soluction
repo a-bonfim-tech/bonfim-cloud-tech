@@ -1,1 +1,13 @@
+Bonfim Cloud Tech proposes a cloud architecture model based on:
 
+- Cloud-native design principles
+- Security by default
+- Identity-first access control
+- Segmentation and least privilege
+- Continuous monitoring and logging
+
+The architecture is designed to be:
+- Scalable
+- Auditable
+- Vendor-aware but not vendor-locked
+- Adaptable to small and medium organizations
