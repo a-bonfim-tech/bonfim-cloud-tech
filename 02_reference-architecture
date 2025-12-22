@@ -1,1 +1,67 @@
 
+# Identity and Access Management (IAM) — Reference Architecture
+
+Identity is the primary security control of Bonfim Cloud Tech.
+All access decisions are identity-driven, not network-driven.
+
+## Core Principles
+- Identity-first security
+- Least privilege by default
+- Explicit deny over implicit allow
+- Separation of duties
+- Continuous review and revocation
+
+## Identity Domains
+The architecture separates identities into clear domains:
+- Human users (employees, contractors)
+- Workload identities (services, APIs)
+- External identities (partners, third parties)
+
+Each domain has distinct policies and lifecycle controls.
+
+## Authentication
+- Strong authentication enforced for all human identities
+- Mandatory MFA for privileged roles
+- Centralized identity provider (IdP)
+- No shared accounts
+
+## Authorization
+- Role-based access control (RBAC)
+- Fine-grained permissions
+- Environment separation (prod / staging / dev)
+- Privileged access requires time-bound elevation
+
+## Service Accounts
+- One service account per workload
+- No reuse across services
+- Minimal permissions required to operate
+- Keyless authentication where possible
+
+## Privileged Access Management (PAM)
+- Admin access is exceptional, not normal
+- Privileged roles are:
+  - Time-limited
+  - Logged
+  - Reviewed periodically
+- Break-glass accounts exist but are tightly controlled
+
+## Logging and Audit
+- All IAM actions are logged
+- Logs are immutable and retained
+- Access reviews are documented
+- Audit trails are available for compliance
+
+## Governance Controls
+- Identity lifecycle management (joiner/mover/leaver)
+- Periodic access reviews
+- Policy versioning and change tracking
+- Clear ownership of roles and permissions
+
+## Security Outcomes
+This IAM architecture reduces:
+- Overprivileged access
+- Lateral movement risk
+- Credential abuse
+- Insider threat impact
+
+IAM is treated as infrastructure, not configuration.
