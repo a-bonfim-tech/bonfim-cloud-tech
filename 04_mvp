@@ -1,1 +1,11 @@
 
+MVP v0.1 Scope
+
+- Cloud security baseline for small organizations
+- IAM model with least privilege principles
+- Secure storage reference patterns
+- Governance and compliance checklist
+- Incident response starter playbook
+
+The MVP is documentation-driven and architecture-focused,
+designed to be implemented incrementally.
