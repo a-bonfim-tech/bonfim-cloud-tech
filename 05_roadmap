@@ -1,1 +1,63 @@
 
+# Roadmap — 90 Days Execution Plan
+
+This roadmap translates the reference architecture into executable steps.
+Focus: build authority, validate value, prepare for deployment.
+
+## Phase 1 — Foundation (Days 1–30)
+Objective: establish credibility, baseline architecture and MVP scope.
+
+Deliverables:
+- Finalize manifesto and problem statement
+- Publish reference architectures:
+  - IAM
+  - Storage
+  - Network Security
+  - Zero Trust
+- Define MVP scope and success criteria
+- Create governance checklists (IAM, storage, network)
+- Set up documentation standards and versioning
+
+Outcomes:
+- Clear positioning
+- Public technical authority
+- Architecture-first MVP definition
+
+## Phase 2 — MVP Implementation (Days 31–60)
+Objective: turn documentation into actionable artifacts.
+
+Deliverables:
+- Implement sample IAM model (least privilege)
+- Create secure storage patterns
+- Define network segmentation templates
+- Produce incident response starter playbook
+- Build compliance-ready documentation (LGPD-aligned)
+- Prepare demo scenarios for small organizations
+
+Outcomes:
+- Practical, reusable security baseline
+- Demonstrable value
+- Ready-to-adapt reference implementations
+
+## Phase 3 — Validation and Expansion (Days 61–90)
+Objective: validate applicability and prepare for scale.
+
+Deliverables:
+- Pilot implementation with a small organization (non-commercial)
+- Collect feedback and refine architectures
+- Improve governance and compliance artifacts
+- Prepare operational onboarding guide
+- Define service offerings and engagement models
+
+Outcomes:
+- Validated approach
+- Refined product offering
+- Ready for formal commercialization
+
+## Key Principles
+- Documentation-first
+- Security-by-design
+- Governance embedded, not added later
+- Vendor-aware, not vendor-locked
+
+This roadmap prioritizes resilience, clarity and long-term trust.
